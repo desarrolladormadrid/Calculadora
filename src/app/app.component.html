@@ -1,0 +1,49 @@
+<div id="body">
+
+
+<div class="cuerpo">
+  <!--<h1>{{title}}</h1>-->
+  <input type="text" id="pantalla" placeholder=""value="{{pantalla}}">
+  <div class="fila">
+    <button (click)=uno() id="1" class="numeros">1</button>
+    <button (click)=dos() id="2" class="numeros">2</button>
+    <button (click)=tres() id="3"class="numeros" >3</button>
+  </div>
+  <div class="fila">
+    <button (click)=cuatro() id="4" class="numeros">4</button>
+    <button (click)=cinco() id="5" class="numeros">5</button>
+    <button (click)=seis() id="6"class="numeros" >6</button>
+  </div>
+  <div class="fila">
+    <button (click)=site() id="7" class="numeros">7</button>
+    <button (click)=ocho() id="8" class="numeros">8</button>
+    <button (click)=nueve() id="9"class="numeros" >9</button>
+  </div>
+  <div class="cero">
+    <button (click)=cero() id="0" class="numeros">0</button>
+    
+  </div>
+
+  <div class="operaciones">
+    <button  (click)=suma() id="sumar" class="numeros">+</button>
+    <button (click)=resta() id="restar" class="numeros">-</button>
+    <button (click)=multiplicacion() id="multiplicar"class="numeros" >x</button>
+    <button (click)=division() id="dividir"class="numeros" >/</button>
+  </div>
+  <div class="resultado">
+    
+    <button (click)=resultado() id="resultado" class="numeros"value="resultado">Resultado</button>
+    <button (click)=borrado() id="borrar" class="numeros" value="borrado">Borrar</button>
+  </div>
+</div>
+  
+
+
+  
+
+
+
+
+
+</div>
+
